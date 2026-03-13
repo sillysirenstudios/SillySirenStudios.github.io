@@ -62,6 +62,9 @@ section { padding: 5rem 2rem; }
   gap: 1.5rem;
 }
 
+a.app-card { color: inherit; }
+a.app-card:hover { text-decoration: none; }
+
 .app-card {
   background: var(--surface);
   border: 1px solid var(--border);

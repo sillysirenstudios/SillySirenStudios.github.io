@@ -24,3 +24,7 @@ css/
 - **/** — Company homepage with app catalog and values
 - **/terminal/** — Silly Siren Terminal product page (features, pricing, privacy)
 - **/terminal/policy/** — Privacy policy for Silly Siren Terminal
+
+## Contact
+
+Public contact email: `SillySirenStudios+contact@gmail.com` — delivers to the main Gmail inbox.

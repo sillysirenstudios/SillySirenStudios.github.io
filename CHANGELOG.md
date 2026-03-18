@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Changed (terminal mockup)
+- Updated terminal mockup with Buddhist-themed username (bodhi), hostname (lotus.dev), server URL (web-01.lotus.dev), and git commit messages
+
 ### Changed (features)
 - Terminal pricing: moved 15 built-in color schemes to Free tier; replaced "All color schemes" with custom theme import (.json / .itermcolors) as Pro feature
 - Terminal Fully Customizable feature card: clarified 15 built-in schemes are free, noted custom theme import is Pro

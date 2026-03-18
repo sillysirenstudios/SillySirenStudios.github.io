@@ -5,6 +5,7 @@
 ### Added
 - New beta page at /terminal/beta/ with TestFlight explainer, testing checklist, known limitations, and mailto CTA
 - "Join the Beta" button on terminal hero (App Store link hidden until live)
+- Universal nav and footer links across all pages: Home, Terminal, Beta, Privacy Policy, Contact
 
 ### Changed (terminal mockup)
 - Updated terminal mockup with Buddhist-themed username (bodhi), hostname (lotus.dev), server URL (web-01.lotus.dev), and git commit messages

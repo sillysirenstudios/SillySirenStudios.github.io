@@ -1,9 +1,9 @@
 
 /* ── Buttons ── */
 .btn-primary {
-  background: var(--green-dim);
+  background: var(--orange-dim);
   color: #fff;
-  border: 1px solid var(--green);
+  border: 1px solid var(--orange);
 }
 
 /* ── Hero ── */
@@ -16,9 +16,9 @@
 
 .hero-badge {
   display: inline-block;
-  background: #1f2d1f;
-  border: 1px solid var(--green-dim);
-  color: var(--green);
+  background: #2d1f0d;
+  border: 1px solid var(--orange-dim);
+  color: var(--orange);
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -36,7 +36,7 @@
   margin-bottom: 1.2rem;
 }
 
-.hero h1 span { color: var(--green); }
+.hero h1 span { color: var(--orange); }
 
 .hero p {
   font-size: 1.15rem;
@@ -108,7 +108,7 @@
 /* ── Sections ── */
 section { padding: 4rem 2rem; }
 .section-inner { max-width: 960px; margin: 0 auto; }
-.section-label { color: var(--green); }
+.section-label { color: var(--orange); }
 .section-sub { max-width: 540px; }
 
 /* ── Feature grid ── */
@@ -126,7 +126,7 @@ section { padding: 4rem 2rem; }
   transition: border-color 0.2s;
 }
 
-.feature-card:hover { border-color: var(--green-dim); }
+.feature-card:hover { border-color: var(--orange-dim); }
 
 .feature-icon {
   font-size: 1.6rem;
@@ -161,7 +161,7 @@ section { padding: 4rem 2rem; }
   padding: 2rem;
 }
 
-.pricing-card.featured { border-color: var(--green); }
+.pricing-card.featured { border-color: var(--orange); }
 
 .pricing-card .plan-name {
   font-size: 0.8rem;
@@ -172,7 +172,7 @@ section { padding: 4rem 2rem; }
   margin-bottom: 0.5rem;
 }
 
-.pricing-card.featured .plan-name { color: var(--green); }
+.pricing-card.featured .plan-name { color: var(--orange); }
 
 .pricing-card .price {
   font-size: 2rem;
@@ -221,7 +221,7 @@ section { padding: 4rem 2rem; }
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--green);
+  color: var(--orange);
   margin-bottom: 1rem;
 }
 
@@ -229,7 +229,7 @@ section { padding: 4rem 2rem; }
   font-size: 1.05rem;
   line-height: 1.75;
   color: var(--text);
-  border-left: 3px solid var(--green-dim);
+  border-left: 3px solid var(--orange-dim);
   padding-left: 1.5rem;
   margin: 0;
 }
@@ -237,8 +237,8 @@ section { padding: 4rem 2rem; }
 /* ── Pricing philosophy note ── */
 .pricing-philosophy {
   max-width: 700px;
-  background: #111d11;
-  border: 1px solid var(--green-dim);
+  background: #1d1108;
+  border: 1px solid var(--orange-dim);
   border-radius: 0.6rem;
   padding: 1rem 1.25rem;
   font-size: 0.88rem;

@@ -1,0 +1,119 @@
+/* ── Beta badge ── */
+.beta-badge {
+  display: inline-block;
+  background: #1f1f2e;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.9rem;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ── Steps ── */
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  max-width: 680px;
+}
+
+.step {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.step-num {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #1f2e1f;
+  border: 1px solid var(--green-dim);
+  color: var(--green);
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.step h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.step p {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* ── Test grid ── */
+.test-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.test-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+}
+
+.test-card h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.test-card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.test-card ul li {
+  font-size: 0.875rem;
+  color: var(--muted);
+  padding-left: 1rem;
+  position: relative;
+}
+
+.test-card ul li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: var(--green);
+}
+
+/* ── Known limitations ── */
+.limitations {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 600px;
+}
+
+.limitations li {
+  font-size: 0.9rem;
+  color: var(--muted);
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.limitations li::before {
+  content: "⚠";
+  position: absolute;
+  left: 0;
+  font-size: 0.8rem;
+}

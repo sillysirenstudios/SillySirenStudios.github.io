@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed (features)
+- Terminal pricing: moved 15 built-in color schemes to Free tier; replaced "All color schemes" with custom theme import (.json / .itermcolors) as Pro feature
+- Terminal Fully Customizable feature card: clarified 15 built-in schemes are free, noted custom theme import is Pro
+
 ### Changed (copy review)
 - Homepage values section-sub: softened "strong opinions" to reflect craft and mindfulness
 - Homepage Focused Scope card: removed "no upsells" framing, reworded around intentional scope

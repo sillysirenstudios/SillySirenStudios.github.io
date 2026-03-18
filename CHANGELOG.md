@@ -2,7 +2,10 @@
 
 ## [Unreleased]
 
-### Added
+### Changed (copy review)
+- Homepage values section-sub: softened "strong opinions" to reflect craft and mindfulness
+- Homepage Focused Scope card: removed "no upsells" framing, reworded around intentional scope
+
 - Terminal page: "Why it exists" origin strip with first-person quote about building out of frustration with existing SSH apps
 - Terminal page: pricing philosophy note explaining the anti-subscription stance (point-to-point app, no server involvement) while noting the annual option exists
 - Homepage: "Fair Pricing" value card surfacing the one-time purchase philosophy at the studio level

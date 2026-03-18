@@ -206,6 +206,50 @@ section { padding: 4rem 2rem; }
 .pricing-card ul li .check { color: var(--green); flex-shrink: 0; }
 .pricing-card ul li .cross { color: var(--muted); flex-shrink: 0; }
 
+/* ── Origin strip ── */
+.origin-strip {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 3rem 2rem;
+}
+
+.origin-inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.origin-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 1rem;
+}
+
+.origin-inner blockquote {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--text);
+  border-left: 3px solid var(--green-dim);
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+/* ── Pricing philosophy note ── */
+.pricing-philosophy {
+  max-width: 700px;
+  background: #111d11;
+  border: 1px solid var(--green-dim);
+  border-radius: 0.6rem;
+  padding: 1rem 1.25rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin-bottom: 2rem;
+  line-height: 1.65;
+}
+
 /* ── Privacy strip ── */
 .privacy-strip {
   background: var(--surface);

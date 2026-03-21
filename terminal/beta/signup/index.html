@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join the Beta — Silly Siren Terminal</title>
+  <link rel="stylesheet" href="../../../css/main.css" />
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <a class="nav-brand" href="/terminal/">
+    <span class="dot">●</span> Silly Siren Terminal
+  </a>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/terminal/">Terminal</a></li>
+    <li><a href="/terminal/beta/">Beta</a></li>
+    <li><a href="/terminal/policy/">Privacy Policy</a></li>
+    <li><a href="/contact/">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="form-page">
+  <div class="page-header">
+    <div class="breadcrumb">
+      <a href="/">Silly Siren Studios</a>
+      <span>›</span>
+      <a href="/terminal/beta/">Beta</a>
+      <span>›</span>
+      Sign Up
+    </div>
+    <h1>Join the beta</h1>
+    <p class="meta">We'll send a TestFlight invite to your inbox.</p>
+  </div>
+
+  <form id="testflight-form">
+    <div class="form-row">
+      <div class="form-group">
+        <label for="firstName">First name</label>
+        <input type="text" id="firstName" name="firstName" required autocomplete="given-name" />
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last name</label>
+        <input type="text" id="lastName" name="lastName" required autocomplete="family-name" />
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required autocomplete="email" />
+    </div>
+    <div class="form-submit">
+      <button class="btn btn-primary" type="submit">Request invite</button>
+    </div>
+    <div class="form-message" id="form-message"></div>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>
+    &copy; 2026 Silly Siren Studios &nbsp;·&nbsp;
+    <a href="/">Home</a> &nbsp;·&nbsp;
+    <a href="/terminal/">Terminal</a> &nbsp;·&nbsp;
+    <a href="/terminal/beta/">Beta</a> &nbsp;·&nbsp;
+    <a href="/terminal/policy/">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="/contact/">Contact</a>
+  </p>
+</footer>
+
+<script>
+  document.getElementById('testflight-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = e.target.querySelector('button[type="submit"]');
+    const msg = document.getElementById('form-message');
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    msg.className = 'form-message';
+    msg.textContent = '';
+    try {
+      const res = await fetch('https://sillysiren-contact.sillysirenstudios.workers.dev/testflight', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          firstName: e.target.firstName.value,
+          lastName: e.target.lastName.value,
+          email: e.target.email.value,
+        }),
+      });
+      if (res.ok) {
+        msg.className = 'form-message success';
+        msg.textContent = "Request received! Check your inbox for a TestFlight invite soon.";
+        e.target.reset();
+      } else {
+        throw new Error();
+      }
+    } catch {
+      msg.className = 'form-message error';
+      msg.textContent = 'Something went wrong. Please try again or email us at SillySirenStudios+testflight@gmail.com';
+    }
+    btn.disabled = false;
+    btn.textContent = 'Request invite';
+  });
+</script>
+
+</body>
+</html>

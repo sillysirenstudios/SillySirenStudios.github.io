@@ -3,6 +3,18 @@
 ## [Unreleased]
 
 ### Added
+- iPhone support reflected across terminal and beta pages — hero, badge, and description updated to "iPhone & iPad SSH Client"
+- Live Server Metrics feature card on terminal page (CPU, memory, disk, network — Pro)
+- Server metrics added to Free and Pro pricing lists
+- iPhone test card on beta page covering single-column navigation and orientation
+- Metrics (Pro) test card on beta page
+
+### Changed
+- Zero Telemetry feature card: "your iPad" → "your device"
+
+---
+
+### Added
 - New beta page at /terminal/beta/ with TestFlight explainer, testing checklist, known limitations, and mailto CTA
 - "Join the Beta" button on terminal hero (App Store link hidden until live)
 - Universal nav and footer links across all pages: Home, Terminal, Beta, Privacy Policy, Contact

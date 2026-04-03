@@ -22,7 +22,8 @@ css/
 ## Pages
 
 - **/** — Company homepage with app catalog and values
-- **/terminal/** — Silly Siren Terminal product page (features, pricing, privacy)
+- **/terminal/** — Silly Siren Terminal product page (features, pricing, privacy) — iPhone & iPad
+- **/terminal/beta/** — TestFlight beta sign-up and testing guide
 - **/terminal/policy/** — Privacy policy for Silly Siren Terminal
 
 ## Contact

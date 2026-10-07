@@ -52,7 +52,7 @@
   <div class="policy-section" id="insomnia">
     <h2>Insomnia</h2>
     <p><strong>Network.</strong> Insomnia never connects to the internet. It has no servers, no accounts, and nothing to sync. Everything it does happens entirely on your Mac, using Apple's own IOKit power management APIs.</p>
-    <p><strong>Data.</strong> The only thing Insomnia keeps is whether you've registered it as a Login Item, which macOS itself manages via <code>SMAppService</code> — the same mechanism any app uses for "Open at Login." Nothing else is written to disk, and nothing is measured, logged, or transmitted about how you use the app.</p>
+    <p><strong>Data.</strong> Insomnia stores your preferences on your Mac only: your settings (such as timer, battery and hotkey options), the apps you choose for auto-activate, and whether you've registered it as a Login Item, which macOS itself manages via <code>SMAppService</code>. These stay inside the app's sandbox container, are never transmitted, and are removed if you delete the app. Nothing is measured, logged, or sent about how you use the app.</p>
   </div>
 
   <div class="policy-section" id="leaflet">

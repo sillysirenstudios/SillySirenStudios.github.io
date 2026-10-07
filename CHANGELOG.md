@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Fixed
+- Privacy policy: Insomnia "Data" paragraph no longer claims the Login Item flag is the only thing stored; it now discloses locally stored preferences (settings, auto-activate app list, Login Item registration), kept in the app sandbox and never transmitted
+
 ### Changed
 - Simplified nav and footer on every page to Home · Apps · Privacy Policy · Contact, replacing the per-app links; "Apps" links to the homepage apps grid (/#apps). Terminal pages also keep a Beta link. All Privacy Policy links now point to /policy/
 - Homepage apps heading: "Built for the people who live in the terminal" → "Tools that earn their place", since the lineup is no longer terminal-only (hero tagline unchanged)

@@ -4,6 +4,7 @@
 
 ### Changed
 - Homepage apps heading: "Built for the people who live in the terminal" → "Small apps, made with care", since the lineup is no longer terminal-only
+- Terminal and Insomnia pages, beta pages, and the privacy policy drop the "Silly Siren" prefix from nav brands and headings (browser tab titles keep the full name)
 - Homepage app cards drop the redundant "Silly Siren" prefix: "Terminal", "Insomnia" (Leaflet unchanged)
 - Homepage Terminal card now shows the Silly Siren Terminal app icon (assets/terminal.png) instead of the keyboard emoji
 

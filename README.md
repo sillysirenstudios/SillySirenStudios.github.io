@@ -10,8 +10,11 @@ terminal/
   index.html                # Silly Siren Terminal app page
   policy/
     index.html              # Privacy policy
+insomnia/
+  index.html                # Silly Siren Insomnia app page
 assets/
   logo.png                  # Company logo
+  insomnia.png              # Insomnia app icon
 css/
   main.css                  # Shared styles (reset, variables, nav, footer)
   home.css                  # Homepage-specific styles
@@ -23,6 +26,7 @@ css/
 
 - **/** — Company homepage with app catalog and values
 - **/terminal/** — Silly Siren Terminal product page (features, pricing, privacy) — iPhone & iPad
+- **/insomnia/** — Silly Siren Insomnia product page (features, pricing) — macOS menu bar app
 - **/terminal/beta/** — TestFlight beta sign-up and testing guide
 - **/terminal/policy/** — Privacy policy for Silly Siren Terminal
 

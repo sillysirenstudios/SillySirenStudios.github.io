@@ -3,6 +3,9 @@
 ## [Unreleased]
 
 ### Added
+- Silly Siren Insomnia (Mac menu bar app) added to the homepage app lineup as "Coming Soon", with nav and footer links
+- New product page at /insomnia/ with features and pricing
+- Insomnia app icon at assets/insomnia.png
 - iPhone support reflected across terminal and beta pages — hero, badge, and description updated to "iPhone & iPad SSH Client"
 - Live Server Metrics feature card on terminal page (CPU, memory, disk, network — Pro)
 - Server metrics added to Free and Pro pricing lists

@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Added
+- Insomnia support page at /insomnia/support/ with a contact email, bug-report guidance, and a common question; the Insomnia hero's secondary button now links to it. Use https://sillysirenstudios.com/insomnia/support/ as the Support URL in App Store Connect
+
 ### Fixed
 - Privacy policy: Insomnia "Data" paragraph no longer claims the Login Item flag is the only thing stored; it now discloses locally stored preferences (settings, auto-activate app list, Login Item registration), kept in the app sandbox and never transmitted
 

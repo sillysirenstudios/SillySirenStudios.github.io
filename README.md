@@ -12,6 +12,8 @@ terminal/
     index.html              # Redirect to /policy/#terminal
 insomnia/
   index.html                # Silly Siren Insomnia app page
+  support/
+    index.html              # Insomnia support page (App Store Support URL)
 leaflet/
   index.html                # Leaflet app page
   policy/
@@ -35,6 +37,7 @@ css/
 - **/** — Company homepage with app catalog and values
 - **/terminal/** — Silly Siren Terminal product page (features, pricing, privacy) — iPhone & iPad
 - **/insomnia/** — Silly Siren Insomnia product page (features, pricing) — macOS menu bar app
+- **/insomnia/support/** — Insomnia support page (contact email, bug-report guidance) — use as the Support URL in App Store Connect
 - **/leaflet/** — Leaflet product page (features) — macOS Markdown viewer
 - **/terminal/beta/** — TestFlight beta sign-up and testing guide
 - **/policy/** — Consolidated privacy policy for all apps, with per-app anchors (`#terminal`, `#insomnia`, `#leaflet`). Use `https://sillysirenstudios.com/policy/` as the Privacy Policy URL in App Store Connect

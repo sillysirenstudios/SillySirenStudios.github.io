@@ -3,6 +3,8 @@
 ## [Unreleased]
 
 ### Added
+- Leaflet (Mac Markdown viewer) added to the homepage app lineup as "Coming Soon", with a product page at /leaflet/ and icon at assets/leaflet.png
+- Consolidated privacy policy at /policy/ covering Terminal, Insomnia, and Leaflet, with per-app anchors (#terminal, #insomnia, #leaflet)
 - Silly Siren Insomnia (Mac menu bar app) added to the homepage app lineup as "Coming Soon", with nav and footer links
 - New product page at /insomnia/ with features and pricing
 - Insomnia app icon at assets/insomnia.png
@@ -13,6 +15,8 @@
 - Metrics (Pro) test card on beta page
 
 ### Changed
+- /terminal/policy/ and /leaflet/policy/ now redirect to the consolidated /policy/ page so previously published URLs keep working
+- Nav and footer "Privacy Policy" links on the homepage, Insomnia, and Leaflet pages now point to /policy/
 - Zero Telemetry feature card: "your iPad" → "your device"
 
 ---

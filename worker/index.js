@@ -53,13 +53,18 @@ export default {
     const url = new URL(request.url);
 
     if (url.pathname === '/contact') {
-      const { firstName, lastName, email, message } = body;
+      const { firstName, lastName, email, message, topic, app } = body;
       if (!firstName || !lastName || !email || !message) {
         return json({ error: 'All fields are required' }, 400);
       }
+      const appLabel = app === 'Insomnia' ? ' (Insomnia)' : '';
+      const subject =
+        topic === 'support'
+          ? `Support request${appLabel} from ${firstName} ${lastName}`
+          : `Message from ${firstName} ${lastName}`;
       const ok = await sendEmail(env.RESEND_API_KEY, {
         to: 'SillySirenStudios+contact@gmail.com',
-        subject: `Message from ${firstName} ${lastName}`,
+        subject,
         replyTo: email,
         text: `From: ${firstName} ${lastName}\nEmail: ${email}\n\n${message}`,
       });

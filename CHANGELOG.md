@@ -2,8 +2,12 @@
 
 ## [Unreleased]
 
+### Changed
+- Removed all email addresses from site pages: the contact and beta sign-up error messages no longer show an address, and the Insomnia support page uses the form instead
+- Contact form supports `?topic=support` (and `&app=insomnia`): heading becomes "Support", message placeholder asks for version info, and the worker sends the email with subject "Support request (Insomnia) from …" (requires redeploying the worker)
+
 ### Added
-- Insomnia support page at /insomnia/support/ with a contact email, bug-report guidance, and a common question; the Insomnia hero's secondary button now links to it. Use https://sillysirenstudios.com/insomnia/support/ as the Support URL in App Store Connect
+- Insomnia support page at /insomnia/support/ with bug-report guidance and a common question, routing to the support form; the Insomnia hero's secondary button now links to it. Use https://sillysirenstudios.com/insomnia/support/ as the Support URL in App Store Connect
 
 ### Fixed
 - Privacy policy: Insomnia "Data" paragraph no longer claims the Login Item flag is the only thing stored; it now discloses locally stored preferences (settings, auto-activate app list, Login Item registration), kept in the app sandbox and never transmitted
@@ -55,4 +59,4 @@
 - Homepage: "Fair Pricing" value card surfacing the one-time purchase philosophy at the studio level
 
 ### Changed
-- Updated public contact email to `SillySirenStudios+contact@gmail.com` across all pages to avoid exposing the base Gmail address
+- Updated the public contact email across all pages to avoid exposing the base Gmail address (since superseded: no email addresses are shown on the site)

@@ -70,6 +70,22 @@
 </footer>
 
 <script>
+  const params = new URLSearchParams(location.search);
+  const topic = params.get('topic') === 'support' ? 'support' : 'contact';
+  const app = params.get('app') === 'insomnia' ? 'Insomnia' : '';
+
+  if (topic === 'support') {
+    document.title = 'Support — Silly Siren Studios';
+    document.querySelector('h1').textContent = 'Support';
+    document.querySelector('.page-header .meta').textContent = app
+      ? `Questions, bug reports or feature requests for ${app} — we read every message.`
+      : 'Questions, bug reports or feature requests — we read every message.';
+    document.querySelector('.breadcrumb').lastChild.textContent = ' Support';
+    document.getElementById('message').placeholder = app
+      ? `How can we help? Please include your macOS version and ${app} version (${app} menu → About ${app}).`
+      : 'How can we help?';
+  }
+
   document.getElementById('contact-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const btn = e.target.querySelector('button[type="submit"]');
@@ -87,6 +103,8 @@
           lastName: e.target.lastName.value,
           email: e.target.email.value,
           message: e.target.message.value,
+          topic,
+          app,
         }),
       });
       if (res.ok) {
@@ -98,7 +116,7 @@
       }
     } catch {
       msg.className = 'form-message error';
-      msg.textContent = 'Something went wrong. Please try again or email us directly at SillySirenStudios+contact@gmail.com';
+      msg.textContent = 'Something went wrong. Please try again in a moment.';
     }
     btn.disabled = false;
     btn.textContent = 'Send message';

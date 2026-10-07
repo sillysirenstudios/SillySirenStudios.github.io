@@ -45,4 +45,8 @@ css/
 
 ## Contact
 
-Public contact email: `SillySirenStudios+contact@gmail.com` — delivers to the main Gmail inbox.
+No email addresses are published on the site. All contact goes through the form at `/contact/`, which posts to the Cloudflare Worker in `worker/index.js` (delivered via Resend).
+
+- `/contact/?topic=support` relabels the form "Support" and makes the email subject "Support request from …"
+- `/contact/?topic=support&app=insomnia` also tags the subject "(Insomnia)" and adds version guidance to the message box
+- Changes to `worker/index.js` only take effect after the worker is redeployed (`wrangler deploy`); until then support messages arrive with the standard "Message from …" subject

@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ### Changed
+- Homepage apps heading: "Built for the people who live in the terminal" → "Small apps, made with care", since the lineup is no longer terminal-only
 - Homepage app cards drop the redundant "Silly Siren" prefix: "Terminal", "Insomnia" (Leaflet unchanged)
 - Homepage Terminal card now shows the Silly Siren Terminal app icon (assets/terminal.png) instead of the keyboard emoji
 

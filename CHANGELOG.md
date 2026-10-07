@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Changed
+- Homepage Terminal card now shows the Silly Siren Terminal app icon (assets/terminal.png) instead of the keyboard emoji
+
 ### Added
 - Leaflet (Mac Markdown viewer) added to the homepage app lineup as "Coming Soon", with a product page at /leaflet/ and icon at assets/leaflet.png
 - Consolidated privacy policy at /policy/ covering Terminal, Insomnia, and Leaflet, with per-app anchors (#terminal, #insomnia, #leaflet)

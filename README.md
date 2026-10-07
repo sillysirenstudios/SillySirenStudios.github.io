@@ -20,6 +20,7 @@ policy/
   index.html                # Consolidated privacy policy for all apps
 assets/
   logo.png                  # Company logo
+  terminal.png              # Terminal app icon
   insomnia.png              # Insomnia app icon
   leaflet.png               # Leaflet app icon
 css/

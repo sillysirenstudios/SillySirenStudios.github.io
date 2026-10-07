@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ### Changed
+- Simplified nav and footer on every page to Home · Apps · Privacy Policy · Contact, replacing the per-app links; "Apps" links to the homepage apps grid (/#apps). Terminal pages also keep a Beta link. All Privacy Policy links now point to /policy/
 - Homepage apps heading: "Built for the people who live in the terminal" → "Small apps, made with care", since the lineup is no longer terminal-only
 - Terminal and Insomnia pages, beta pages, and the privacy policy drop the "Silly Siren" prefix from nav brands and headings (browser tab titles keep the full name)
 - Homepage app cards drop the redundant "Silly Siren" prefix: "Terminal", "Insomnia" (Leaflet unchanged)

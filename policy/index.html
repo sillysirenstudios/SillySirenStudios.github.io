@@ -57,7 +57,7 @@
 
   <div class="policy-section" id="leaflet">
     <h2>Leaflet</h2>
-    <p><strong>Network.</strong> Leaflet has no network entitlement — it is not just configured to avoid network use, it is sandboxed in a way that makes network access technically impossible for the app. It cannot phone home, check for updates, load remote images, or fetch anything from the internet.</p>
+    <p><strong>Network.</strong> Leaflet has no servers, no accounts, no analytics, and no update checks, and it never sends your files or any information about you or your use of the app anywhere. The app does hold macOS's standard network-client entitlement, because macOS requires it for the built-in web views that render Mermaid diagrams inside a sandboxed app. All of the diagram code is bundled inside Leaflet itself, and nothing in the app uses that entitlement to transmit data.</p>
     <p><strong>Data.</strong> Leaflet only reads the specific Markdown files you choose to open, and never writes to or modifies them.</p>
   </div>
 

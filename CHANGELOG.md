@@ -10,6 +10,7 @@
 - Insomnia support page at /insomnia/support/ with bug-report guidance and a common question, routing to the support form; the Insomnia hero's secondary button now links to it. Use https://sillysirenstudios.com/insomnia/support/ as the Support URL in App Store Connect
 
 ### Fixed
+- Leaflet copy no longer claims "no network access"/"no network entitlement", since Leaflet now holds `com.apple.security.network.client` so Mermaid web views render. Policy explains the entitlement; the Leaflet page and homepage card now say "no accounts, no tracking" and "Offline by Design"
 - Privacy policy: Insomnia "Data" paragraph no longer claims the Login Item flag is the only thing stored; it now discloses locally stored preferences (settings, auto-activate app list, Login Item registration), kept in the app sandbox and never transmitted
 
 ### Changed

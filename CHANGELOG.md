@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ### Changed
+- Homepage app cards drop the redundant "Silly Siren" prefix: "Terminal", "Insomnia" (Leaflet unchanged)
 - Homepage Terminal card now shows the Silly Siren Terminal app icon (assets/terminal.png) instead of the keyboard emoji
 
 ### Added

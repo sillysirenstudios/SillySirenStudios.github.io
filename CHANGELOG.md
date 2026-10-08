@@ -9,7 +9,13 @@
 ### Added
 - Insomnia support page at /insomnia/support/ with bug-report guidance and a common question, routing to the support form; the Insomnia hero's secondary button now links to it. Use https://sillysirenstudios.com/insomnia/support/ as the Support URL in App Store Connect
 
+### Added
+- Leaflet support page at /leaflet/support/ routing to the support form (`?topic=support&app=leaflet`), mirroring Insomnia's. Use https://sillysirenstudios.com/leaflet/support/ as the Support URL in App Store Connect; the Leaflet hero's secondary button now links to it
+- Support form and worker accept `app=leaflet`, so support emails are subjected "Support request (Leaflet) from …" (requires redeploying the worker)
+
 ### Changed
+- Privacy policy: Leaflet "Data" paragraph now discloses locally stored display preferences (appearance, text size, window size), kept in the app sandbox and never transmitted
+- Leaflet page title uses the App Store name "Silly Siren Leaflet"
 - Leaflet page and homepage card now describe the app's current feature set: display math (KaTeX), Quick Look, folder browsing and file links, search and outline, live reload, themes and text size, copy and PDF export. Inline math and diagrams in PDF export are deliberately not claimed
 
 ### Fixed

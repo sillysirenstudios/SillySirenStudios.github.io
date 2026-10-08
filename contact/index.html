@@ -72,7 +72,7 @@
 <script>
   const params = new URLSearchParams(location.search);
   const topic = params.get('topic') === 'support' ? 'support' : 'contact';
-  const app = params.get('app') === 'insomnia' ? 'Insomnia' : '';
+  const app = { insomnia: 'Insomnia', leaflet: 'Leaflet' }[params.get('app')] ?? '';
 
   if (topic === 'support') {
     document.title = 'Support — Silly Siren Studios';

@@ -57,7 +57,7 @@ export default {
       if (!firstName || !lastName || !email || !message) {
         return json({ error: 'All fields are required' }, 400);
       }
-      const appLabel = app === 'Insomnia' ? ' (Insomnia)' : '';
+      const appLabel = ['Insomnia', 'Leaflet'].includes(app) ? ` (${app})` : '';
       const subject =
         topic === 'support'
           ? `Support request${appLabel} from ${firstName} ${lastName}`

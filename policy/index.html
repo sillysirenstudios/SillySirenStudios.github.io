@@ -38,7 +38,7 @@
 
   <div class="policy-section">
     <h2>All Apps</h2>
-    <p>This policy covers Terminal, Insomnia, and Leaflet. No account is required to use any of them. We do not collect, store, or transmit personal data, and we do not know how many people use our apps, how often, or what they do with them.</p>
+    <p>This policy covers Terminal, Insomnia, Leaflet, and Clocks. No account is required to use any of them. We do not collect, store, or transmit personal data, and we do not know how many people use our apps, how often, or what they do with them.</p>
     <p>The apps contain no analytics, crash reporting, advertising SDKs, or tracking of any kind. None of them are designed for or directed at children, and none collect personal information from anyone, including children under 13.</p>
   </div>
 
@@ -59,6 +59,12 @@
     <h2>Leaflet</h2>
     <p><strong>Network.</strong> Leaflet has no servers, no accounts, no analytics, and no update checks, and it never sends your files or any information about you or your use of the app anywhere. The app does hold macOS's standard network-client entitlement, because macOS requires it for the built-in web views that render Mermaid diagrams inside a sandboxed app. All of the diagram code is bundled inside Leaflet itself, and nothing in the app uses that entitlement to transmit data.</p>
     <p><strong>Data.</strong> Leaflet only reads the specific Markdown files and folders you choose to open, and never writes to or modifies them. It stores your display preferences (appearance, text size and window size) on your Mac only. They stay inside the app's sandbox container, are never transmitted, and are removed if you delete the app. Nothing is measured, logged, or sent about how you use the app.</p>
+  </div>
+
+  <div class="policy-section" id="clocks">
+    <h2>Clocks</h2>
+    <p><strong>Network.</strong> Clocks has no accounts, no analytics, and no network access at all: the app holds no network entitlement, so it cannot connect to the internet. Nothing leaves your Mac.</p>
+    <p><strong>Data.</strong> Clocks stores your preferences on your Mac only: your list of cities and any custom labels, which city shows in the menu bar, your display options (time format, seconds, date, clock style and whether a location shows in the menu bar), the height of the clock list, and whether you've set it to launch at login, which macOS itself manages as a Login Item via <code>SMAppService</code>. These stay inside the app's sandbox container, are never transmitted, and are removed if you delete the app. Nothing is measured, logged, or sent about how you use the app.</p>
   </div>
 
   <div class="policy-section">

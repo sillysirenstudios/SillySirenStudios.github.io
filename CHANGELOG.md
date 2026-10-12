@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+### Added
+- Clocks product page at /clocks/ (Coming Soon) with the current feature set, and a Clocks card with its icon on the homepage
+- Clocks support page at /clocks/support/ routing to the support form (`?topic=support&app=clocks`). Use https://sillysirenstudios.com/clocks/support/ as the Support URL and https://sillysirenstudios.com/clocks/ as the Marketing URL in App Store Connect
+- Privacy policy `#clocks` section: no accounts, analytics or network access, plus the locally stored preferences
+- Support form and worker accept `app=clocks`, so support emails are subjected "Support request (Clocks) from …" (requires redeploying the worker)
+
 ### Changed
 - Removed all email addresses from site pages: the contact and beta sign-up error messages no longer show an address, and the Insomnia support page uses the form instead
 - Contact form supports `?topic=support` (and `&app=insomnia`): heading becomes "Support", message placeholder asks for version info, and the worker sends the email with subject "Support request (Insomnia) from …" (requires redeploying the worker)

@@ -58,5 +58,6 @@ css/
 No email addresses are published on the site. All contact goes through the form at `/contact/`, which posts to the Cloudflare Worker in `worker/index.js` (delivered via Resend).
 
 - `/contact/?topic=support` relabels the form "Support" and makes the email subject "Support request from …"
-- `/contact/?topic=support&app=insomnia` (or `app=leaflet` / `app=clocks`) also tags the subject "(Insomnia)" / "(Leaflet)" / "(Clocks)" and adds version guidance to the message box
+- `/contact/?topic=support&app=insomnia` (or `app=leaflet`) also tags the subject "(Insomnia)" / "(Leaflet)" and adds version guidance to the message box
+- `app=clocks` only changes the form text; the worker does not tag its subject
 - Changes to `worker/index.js` only take effect after the worker is redeployed (`wrangler deploy`); until then support messages arrive with the standard "Message from …" subject

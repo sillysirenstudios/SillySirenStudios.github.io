@@ -10,14 +10,14 @@
 
 ### Changed
 - Removed all email addresses from site pages: the contact and beta sign-up error messages no longer show an address, and the Insomnia support page uses the form instead
-- Contact form supports `?topic=support` (and `&app=insomnia`): heading becomes "Support", message placeholder asks for version info, and the worker sends the email with subject "Support request (Insomnia) from …" (requires redeploying the worker)
+- Contact form supports `?topic=support` (and `&app=insomnia`): heading becomes "Support", message placeholder asks for version info, and the worker sends the email with subject "Support request (Insomnia) from …"
 
 ### Added
 - Insomnia support page at /insomnia/support/ with bug-report guidance and a common question, routing to the support form; the Insomnia hero's secondary button now links to it. Use https://sillysirenstudios.com/insomnia/support/ as the Support URL in App Store Connect
 
 ### Added
 - Leaflet support page at /leaflet/support/ routing to the support form (`?topic=support&app=leaflet`), mirroring Insomnia's. Use https://sillysirenstudios.com/leaflet/support/ as the Support URL in App Store Connect; the Leaflet hero's secondary button now links to it
-- Support form and worker accept `app=leaflet`, so support emails are subjected "Support request (Leaflet) from …" (requires redeploying the worker)
+- Support form and worker accept `app=leaflet`, so support emails are subjected "Support request (Leaflet) from …"
 
 ### Changed
 - Privacy policy: Leaflet "Data" paragraph now discloses locally stored display preferences (appearance, text size, window size), kept in the app sandbox and never transmitted

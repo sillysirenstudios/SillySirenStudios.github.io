@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ### Added
+- Clocks 1.1: desktop widget feature card on /clocks/, and the Clocks privacy policy now says data stays inside the app's sandbox and its shared App Group container (shared only between the app and its own widget)
 - Clocks product page at /clocks/ (Coming Soon) with the current feature set, including the time travel slider, and a Clocks card with its icon on the homepage
 - Clocks support page at /clocks/support/ routing to the support form (`?topic=support&app=clocks`). Use https://sillysirenstudios.com/clocks/support/ as the Support URL and https://sillysirenstudios.com/clocks/ as the Marketing URL in App Store Connect
 - Privacy policy `#clocks` section: no accounts, analytics or network access, plus the locally stored preferences

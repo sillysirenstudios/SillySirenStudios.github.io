@@ -3,7 +3,7 @@
 ## [Unreleased]
 
 ### Changed
-- Privacy policy: Leaflet section now says remote images are not loaded, discloses the stored list of open folders and the PDF the user can save, and adds a data-deletion paragraph (no server-side data; remove the app and its ~/Library/Containers folders)
+- Privacy policy: Leaflet section now says remote images are loaded only if the user chooses (directly from their host, off by default), discloses the stored list of open folders, the remote-images preference and the PDF the user can save, and adds a data-deletion paragraph (no server-side data; remove the app and its ~/Library/Containers folders)
 
 ### Added
 - Clocks 1.1: desktop widget feature card on /clocks/, and the Clocks privacy policy now says data stays inside the app's sandbox and its shared App Group container (shared only between the app and its own widget); it no longer claims deleting the app removes that data, which macOS does not do for container folders

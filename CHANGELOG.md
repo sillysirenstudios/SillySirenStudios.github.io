@@ -3,7 +3,7 @@
 ## [Unreleased]
 
 ### Added
-- Clocks product page at /clocks/ (Coming Soon) with the current feature set, and a Clocks card with its icon on the homepage
+- Clocks product page at /clocks/ (Coming Soon) with the current feature set, including the time travel slider, and a Clocks card with its icon on the homepage
 - Clocks support page at /clocks/support/ routing to the support form (`?topic=support&app=clocks`). Use https://sillysirenstudios.com/clocks/support/ as the Support URL and https://sillysirenstudios.com/clocks/ as the Marketing URL in App Store Connect
 - Privacy policy `#clocks` section: no accounts, analytics or network access, plus the locally stored preferences
 - Support form accepts `app=clocks`, relabelling the heading and version hint for Clocks

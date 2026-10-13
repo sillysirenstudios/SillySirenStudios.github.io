@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ### Changed
+- Privacy policy: Insomnia section no longer claims deleting the app removes its data (macOS keeps the container); it now says to delete the app and its ~/Library/Containers folder, notes the Login Item may stay listed until removed in System Settings, and adds a data-deletion paragraph
 - Privacy policy: Leaflet section now says remote images are loaded only if the user chooses (directly from their host, off by default), discloses the stored list of open folders, the remote-images preference and the PDF the user can save, and adds a data-deletion paragraph (no server-side data; remove the app and its ~/Library/Containers folders)
 
 ### Added

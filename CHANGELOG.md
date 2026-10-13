@@ -10,6 +10,7 @@
 - Support form accepts `app=clocks`, relabelling the heading and version hint for Clocks
 
 ### Changed
+- Clocks support page: "back to local time" answer now says to open the Clocks menu bar item first, then right-click the selected city
 - Removed all email addresses from site pages: the contact and beta sign-up error messages no longer show an address, and the Insomnia support page uses the form instead
 - Contact form supports `?topic=support` (and `&app=insomnia`): heading becomes "Support", message placeholder asks for version info, and the worker sends the email with subject "Support request (Insomnia) from …"
 

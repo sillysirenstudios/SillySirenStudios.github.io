@@ -20,6 +20,12 @@ leaflet/
     index.html              # Leaflet support page (App Store Support URL)
   policy/
     index.html              # Redirect to /policy/#leaflet
+nfc-lab/
+  index.html                # NFC Lab app page (Coming Soon)
+  support/
+    index.html              # NFC Lab support page (App Store Support URL)
+  policy/
+    index.html              # Redirect to /policy/#nfc-lab
 clocks/
   index.html                # Clocks app page
   support/
@@ -32,6 +38,7 @@ assets/
   insomnia.png              # Insomnia app icon
   leaflet.png               # Leaflet app icon
   clocks.png                # Clocks app icon
+  nfc-lab.png              # NFC Lab app icon
 css/
   main.css                  # Shared styles (reset, variables, nav, footer)
   home.css                  # Homepage-specific styles
@@ -49,8 +56,10 @@ css/
 - **/leaflet/** — Leaflet product page (features) — macOS Markdown viewer
 - **/clocks/** — Clocks product page (features) — macOS menu bar world clock
 - **/clocks/support/** — Clocks support page — use as the Support URL in App Store Connect
+- **/nfc-lab/** — NFC Lab product page (Coming Soon) — iPhone NFC tag tool
+- **/nfc-lab/support/** — NFC Lab support page — use as the Support URL in App Store Connect
 - **/terminal/beta/** — TestFlight beta sign-up and testing guide
-- **/policy/** — Consolidated privacy policy for all apps, with per-app anchors (`#terminal`, `#insomnia`, `#leaflet`, `#clocks`). Use `https://sillysirenstudios.com/policy/` as the Privacy Policy URL in App Store Connect
+- **/policy/** — Consolidated privacy policy for all apps, with per-app anchors (`#terminal`, `#insomnia`, `#leaflet`, `#clocks`, `#nfc-lab`). Use `https://sillysirenstudios.com/policy/` as the Privacy Policy URL in App Store Connect
 - **/terminal/policy/**, **/leaflet/policy/** — Redirects to `/policy/` so previously published URLs keep working
 
 ## Contact

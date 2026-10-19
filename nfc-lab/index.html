@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silly Siren NFC Lab — Read, Write and Test NFC Tags on iPhone</title>
+  <link rel="stylesheet" href="../css/main.css" />
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <a class="nav-brand" href="../">
+    <span class="dot">●</span> NFC Lab
+  </a>
+  <ul>
+    <li><a href="../">Home</a></li>
+    <li><a href="../#apps">Apps</a></li>
+    <li><a href="../policy/">Privacy Policy</a></li>
+    <li><a href="../contact/">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero-terminal">
+  <div class="hero-badge">iPhone NFC Tool · Coming Soon</div>
+  <h1>NFC tags, <span>read, written, taken apart</span></h1>
+  <p>Read, write and verify NFC tags on your iPhone, then open the Lab: a memory map, a raw command console, snapshots, NTAG password and dynamic-URL settings and a tap-quality test. $6.99 once. No subscription, no ads, no accounts, and no network access.</p>
+  <div class="cta-group">
+    <a class="btn btn-primary" href="#features">See Features</a>
+    <a class="btn btn-secondary" href="support/">Support</a>
+  </div>
+  <p>$6.99, once. No subscription.</p>
+  <p>The supported-chip list will be published here once testing on real tags is complete.</p>
+</section>
+
+<!-- Features -->
+<section id="features">
+  <div class="section-inner">
+    <div class="section-label">Capabilities</div>
+    <h2 class="section-title">Hold it. Read it.<br>Change it. Prove it. Take it apart.</h2>
+    <p class="section-sub">Requires an iPhone 7 or later running iOS 17 or later.</p>
+    <div class="feature-grid">
+
+      <div class="feature-card">
+        <div class="feature-icon">🔍</div>
+        <h3>Identify Any Tag It Can</h3>
+        <p>Shows the tag family (Ultralight and NTAG, DESFire, ISO 15693, NDEF Type 4 cards), chip, UID, memory size, NDEF capacity and whether the tag is writable or read-only, with a plain-language note when a tag is not supported.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📖</div>
+        <h3>Read Every Record</h3>
+        <p>URLs, text, Wi-Fi, contacts (vCard), phone numbers, SMS, email, locations, app links, Shortcut links, MIME and external records, parsed, with a raw hex and ASCII view of each record.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🧮</div>
+        <h3>Hex and Memory Dump</h3>
+        <p>Page-by-page memory dump for NTAG and MIFARE Ultralight tags, with a hex view and export.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">✍️</div>
+        <h3>Write With a Size Meter</h3>
+        <p>A record builder for twelve record types, several records per tag, with a live meter against NTAG213, NTAG215 or NTAG216, so you know it fits before you hold the tag to the phone.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">✏️</div>
+        <h3>Edit in Place</h3>
+        <p>Scan a tag, tap Edit &amp; write back, change one record and write it back. No retyping the rest.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">✅</div>
+        <h3>Write Verification</h3>
+        <p>After every write the app reads the tag back and compares it. You get a clear verified or failed result.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3>Erase and Lock</h3>
+        <p>Erase a tag and check it. Lock a tag read-only: permanent, so you must tick a box, type LOCK and hold the tag again.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🏷</div>
+        <h3>Write to Many</h3>
+        <p>Send the same payload to a run of tags with a counter, or batch write from a CSV with one row per tag.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🗂</div>
+        <h3>Library and Templates</h3>
+        <p>Save scans and templates on your device, in folders, with labels and search, plus five built-in templates. Import and export JSON and CSV.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>Shortcuts and Siri</h3>
+        <p>Five actions: Scan NFC Tag, Read URL from NFC Tag, Write Text to NFC Tag, Write URL to NFC Tag and Write Wi-Fi to NFC Tag. Each opens the app to run the NFC session, and the writes are checked by reading back.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📱</div>
+        <h3>Made for iPhone</h3>
+        <p>Reading and writing tags needs the NFC reader in an iPhone 7 or later, so NFC Lab is an iPhone app running iOS 17 or later.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3>Private by Design</h3>
+        <p>No accounts, no analytics, no ads and no network entitlement at all. Your tags and library stay on your device. One purchase, no subscription.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Lab -->
+<section id="lab">
+  <div class="section-inner">
+    <div class="section-label">The Lab</div>
+    <h2 class="section-title">See inside a tag</h2>
+    <p class="section-sub">The Lab is for people who want to see inside a tag. Anything that changes a tag shows what it will write and asks first; details not yet checked on real tags are marked Unverified in the app.</p>
+    <div class="feature-grid">
+
+      <div class="feature-card">
+        <div class="feature-icon">🗺</div>
+        <h3>Memory Map</h3>
+        <p>Every page of an NTAG or Ultralight tag, colour coded by what it is for, with a risk rating. Edit a page by hand behind warnings, a confirmation and a read-back check.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">⌨️</div>
+        <h3>Raw Command Console</h3>
+        <p>Send your own commands to NTAG and ISO 15693 tags. Every command is rated before it goes out, dangerous ones need a second confirmation, answers are explained in plain language, and you can share a transcript.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📡</div>
+        <h3>ISO 15693 Inspector</h3>
+        <p>System information, a block viewer and lock status for ICODE-style tags. Read only.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🛡</div>
+        <h3>Originality Check</h3>
+        <p>Tests the NXP signature on NTAG213, NTAG215 and NTAG216. Honest limits: the built-in key is not yet confirmed against an NXP source, so results are worded carefully, and a pass does not prove a tag is not a clone.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📚</div>
+        <h3>Chip Reference</h3>
+        <p>Offline cheat sheets for common NTAG, Ultralight and ICODE chips, with anything unverified marked.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📸</div>
+        <h3>Snapshots, Diff and Restore</h3>
+        <p>Save a complete copy of a tag's memory, compare any two snapshots or a snapshot and a tag page by page, and restore one onto a tag of the same type after a dry-run of exactly what will change.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔑</div>
+        <h3>NTAG Configuration</h3>
+        <p>Set or remove a password on an NTAG213, 215 or 216, turn on the read counter, and write dynamic URLs that carry the tag's UID and a read counter. Risky settings need you to type I UNDERSTAND. The bit positions are marked Unverified until tested on real tags.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📶</div>
+        <h3>Tap-Quality Test</h3>
+        <p>Reads a tag repeatedly, gives a verdict and ranks the spots on your phone from best to worst.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔎</div>
+        <h3>Decode Bench</h3>
+        <p>Paste hex, Base64, an NDEF message, a vCard or a Wi-Fi QR string and see what it means, offline.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📓</div>
+        <h3>Notebook and Reports</h3>
+        <p>Keep notes about your tags and share a tag report as Markdown, text or PDF.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Honest limits -->
+<section id="limits">
+  <div class="section-inner">
+    <div class="section-label">Honest limits</div>
+    <h2 class="section-title">What iPhones can't do</h2>
+    <p class="section-sub">iOS can read and write NDEF on most tags, and reach raw memory on NTAG and MIFARE Ultralight tags. It cannot read MIFARE Classic, the chip in many hotel keys, gym fobs and older transit cards, and no iPhone app can, whatever its store listing says. NFC Lab tells you when it meets one instead of failing silently. It does not clone cards, change a tag's UID, emulate a tag or sniff other readers, and it does not work with every tag.</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>
+    &copy; 2026 Silly Siren Studios &nbsp;·&nbsp;
+    <a href="../">Home</a> &nbsp;·&nbsp;
+    <a href="../#apps">Apps</a> &nbsp;·&nbsp;
+    <a href="../policy/">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="../contact/">Contact</a>
+  </p>
+</footer>
+
+</body>
+</html>

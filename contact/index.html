@@ -72,7 +72,7 @@
 <script>
   const params = new URLSearchParams(location.search);
   const topic = params.get('topic') === 'support' ? 'support' : 'contact';
-  const app = { insomnia: 'Insomnia', leaflet: 'Leaflet', clocks: 'Clocks' }[params.get('app')] ?? '';
+  const app = { insomnia: 'Insomnia', leaflet: 'Leaflet', clocks: 'Clocks', 'nfc-lab': 'NFC Lab' }[params.get('app')] ?? '';
 
   if (topic === 'support') {
     document.title = 'Support — Silly Siren Studios';
@@ -82,7 +82,9 @@
       : 'Questions, bug reports or feature requests — we read every message.';
     document.querySelector('.breadcrumb').lastChild.textContent = ' Support';
     document.getElementById('message').placeholder = app
-      ? `How can we help? Please include your macOS version and ${app} version (${app === 'Clocks' ? 'shown in Preferences' : `${app} menu → About ${app}`}).`
+      ? (app === 'NFC Lab'
+          ? 'How can we help? Please include your iPhone model, iOS version and NFC Lab version (More → About), and the tag type if it is about a tag.'
+          : `How can we help? Please include your macOS version and ${app} version (${app === 'Clocks' ? 'shown in Preferences' : `${app} menu → About ${app}`}).`)
       : 'How can we help?';
   }
 

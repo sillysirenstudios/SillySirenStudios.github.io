@@ -38,7 +38,7 @@
 
   <div class="policy-section">
     <h2>All Apps</h2>
-    <p>This policy covers Terminal, Insomnia, Leaflet, and Clocks. No account is required to use any of them. We do not collect, store, or transmit personal data, and we do not know how many people use our apps, how often, or what they do with them.</p>
+    <p>This policy covers Terminal, Insomnia, Leaflet, Clocks, and NFC Lab. No account is required to use any of them. We do not collect, store, or transmit personal data, and we do not know how many people use our apps, how often, or what they do with them.</p>
     <p>The apps contain no analytics, crash reporting, advertising SDKs, or tracking of any kind. None of them are designed for or directed at children, and none collect personal information from anyone, including children under 13.</p>
   </div>
 
@@ -67,6 +67,14 @@
     <h2>Clocks</h2>
     <p><strong>Network.</strong> Clocks has no accounts, no analytics, and no network access at all: the app holds no network entitlement, so it cannot connect to the internet. Nothing leaves your Mac.</p>
     <p><strong>Data.</strong> Clocks stores your preferences on your Mac only: your list of cities and any custom labels, which city shows in the menu bar, your display options (time format, seconds, date, clock style and whether a location shows in the menu bar), the height of the clock list, and whether you've set it to launch at login, which macOS itself manages as a Login Item via <code>SMAppService</code>. These stay inside the app's sandbox and its shared App Group container (shared only between the app and its own widget), are never transmitted, and can be removed by deleting the app and its data folders in ~/Library (Containers and Group Containers). Nothing is measured, logged, or sent about how you use the app.</p>
+  </div>
+
+  <div class="policy-section" id="nfc-lab">
+    <h2>NFC Lab</h2>
+    <p><strong>Network.</strong> NFC Lab has no servers, no accounts, no analytics, and no network access at all: the app holds no network entitlement, so it cannot connect to the internet. Nothing it reads from a tag or stores on your device is sent to Silly Siren Studios or anyone else.</p>
+    <p><strong>Data.</strong> NFC Lab reads and writes NFC tags only when you hold a tag to your iPhone and start a scan or a write. It stores your tag library (saved scans and templates, with their folders), imported CSV data, Lab snapshots and notebook notes, and your display settings on your device only, inside the app's sandbox. They are never transmitted. If you export a JSON file, a CSV file, a snapshot, a report, a console transcript or a memory dump, or share one from the app, it goes where you choose to send it using the system share sheet, and Silly Siren Studios does not receive it. The Shortcuts actions (Scan NFC Tag, Read URL from NFC Tag and the three Write actions) pass data only between your own shortcuts on your device. Nothing is measured, logged, or sent about how you use the app.</p>
+    <p><strong>Tags.</strong> Writing to a tag changes that tag. Locking a tag read-only is permanent, and so are some Lab settings (for example a password attempt limit or a configuration lock). Information on a tag can be read by anyone with an NFC reader, so do not write secrets to a tag you leave in a public place.</p>
+    <p><strong>Deleting your data.</strong> Silly Siren Studios holds no data about you from NFC Lab. There is no account to close and nothing for us to delete. To remove what NFC Lab stores on your device, delete the app; iOS removes the app's data with it. Anything you exported or shared is a file you control.</p>
   </div>
 
   <div class="policy-section">

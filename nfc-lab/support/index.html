@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Silly Siren NFC Lab</title>
+  <link rel="stylesheet" href="../../css/main.css" />
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="../">
+    <span class="dot">●</span> NFC Lab
+  </a>
+  <ul class="nav-links">
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../#apps">Apps</a></li>
+    <li><a href="../../policy/">Privacy Policy</a></li>
+    <li><a href="../../contact/">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="page">
+
+  <div class="page-header">
+    <div class="breadcrumb">
+      <a href="../../">Silly Siren Studios</a>
+      <span>›</span>
+      <a href="../">NFC Lab</a>
+      <span>›</span>
+      Support
+    </div>
+    <h1>Support</h1>
+    <div class="meta">Silly Siren NFC Lab</div>
+  </div>
+
+  <div class="summary">
+    <strong>Need a hand?</strong> Send us a message through the support form — we read every one.
+  </div>
+
+  <div class="policy-section">
+    <h2>Contact Support</h2>
+    <p>Questions, bug reports or feature requests: use the support form. Please include your iPhone model, iOS version and NFC Lab version (More → About), and the tag type if it is about a tag.</p>
+    <p><a class="btn btn-primary" href="../../contact/?topic=support&amp;app=nfc-lab">Support</a></p>
+  </div>
+
+  <div class="policy-section">
+    <h2>Common Questions</h2>
+    <p><strong>My tag is not detected.</strong> Hold the top edge of the iPhone flat against the tag and keep it still for a second or two; metal surfaces and thick cases can block the signal. Core NFC needs an iPhone 7 or later.</p>
+    <p><strong>It says my card is not supported.</strong> If the card is a MIFARE Classic (many hotel keys, gym fobs and older transit cards), iOS does not allow any app to read it, and NFC Lab tells you so rather than failing. It also cannot read payment cards or most access-control cards, FeliCa cards are not detected, and it does not clone cards.</p>
+    <p><strong>A write failed or says it did not verify.</strong> Hold the tag steady until the sheet closes, and check that the content fits the tag (the size meter turns red if it does not). A tag that is locked read-only cannot be changed, and a lock is permanent.</p>
+    <p><strong>Can I undo "Lock read-only"?</strong> No. Locking is permanent on the tag itself, which is why the app asks twice. Use a tag you do not need to reuse.</p>
+    <p><strong>Which tags work?</strong> Tags that hold NDEF data and support Core NFC. NTAG213, NTAG215, NTAG216 and MIFARE Ultralight tags are the main targets for reading, writing and the memory dump. Other tags may be identified but not editable. A tested-chip list will be added once testing on real tags is complete.</p>
+    <p><strong>Can I use it on an iPad?</strong> No. Reading and writing tags needs an NFC reader, which no iPad has, so NFC Lab is iPhone only.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>Privacy</h2>
+    <p>NFC Lab collects no data and has no network access. Read the full <a href="../../policy/#nfc-lab">privacy policy</a>.</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    &copy; 2026 Silly Siren Studios &nbsp;·&nbsp;
+    <a href="../../">Home</a> &nbsp;·&nbsp;
+    <a href="../../#apps">Apps</a> &nbsp;·&nbsp;
+    <a href="../../policy/">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="../../contact/">Contact</a>
+  </p>
+</footer>
+
+</body>
+</html>

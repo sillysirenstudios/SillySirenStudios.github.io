@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 
+### Added
+- NFC Lab product page at /nfc-lab/ (Coming Soon, iPhone only, $6.99), support page at /nfc-lab/support/ (`?topic=support&app=nfc-lab`), /nfc-lab/policy/ redirect, a `#nfc-lab` privacy policy section (no accounts, analytics or network access; data stays on the device; exports and shares are user-initiated), a homepage card with its icon, and support-form and worker support for `app=nfc-lab`. Use https://sillysirenstudios.com/nfc-lab/support/ as the Support URL and https://sillysirenstudios.com/nfc-lab/ as the Marketing URL in App Store Connect
+- Worker support-email subject now labels Clocks and NFC Lab as well as Insomnia and Leaflet
+
+### Changed
+- Clocks: homepage card and /clocks/ now show it as available on the Mac App Store ($2.99) with a store link, replacing Coming Soon
+- Terminal homepage card: removed the premature "Live" badge (now Coming Soon) and says iPhone & iPad instead of iPad only
+- Terminal pricing: SSH key import and all color schemes are free, matching the app; Pro no longer lists SSH key import
+
 ### Changed
 - Privacy policy: Insomnia section no longer claims deleting the app removes its data (macOS keeps the container); it now says to delete the app and its ~/Library/Containers folder, notes the Login Item may stay listed until removed in System Settings, and adds a data-deletion paragraph
 - Privacy policy: Leaflet section now says remote images are loaded only if the user chooses (directly from their host, off by default), discloses the stored list of open folders, the remote-images preference and the PDF the user can save, and adds a data-deletion paragraph (no server-side data; remove the app and its ~/Library/Containers folders)

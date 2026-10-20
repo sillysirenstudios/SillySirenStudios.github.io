@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ### Added
+- Leaflet page: stepped Setup section (#setup) for making Leaflet the default Markdown app and turning on Quick Look previews
 - NFC Lab product page at /nfc-lab/ (Coming Soon, iPhone only, $6.99), support page at /nfc-lab/support/ (`?topic=support&app=nfc-lab`), /nfc-lab/policy/ redirect, a `#nfc-lab` privacy policy section (no accounts, analytics or network access; data stays on the device; exports and shares are user-initiated), a homepage card with its icon, and support-form and worker support for `app=nfc-lab`. Use https://sillysirenstudios.com/nfc-lab/support/ as the Support URL and https://sillysirenstudios.com/nfc-lab/ as the Marketing URL in App Store Connect
 - Worker support-email subject now labels Clocks and NFC Lab as well as Insomnia and Leaflet
 

@@ -15,6 +15,7 @@
 - Worker support-email subject now labels Clocks and NFC Lab as well as Insomnia and Leaflet
 
 ### Changed
+- Leaflet page: "your Mac" in the Offline by Design card reworded to "your computer" (5.2.5)
 - Clocks: homepage card and /clocks/ now show it as available on the Mac App Store ($2.99) with a store link, replacing Coming Soon
 - Terminal homepage card: removed the premature "Live" badge (now Coming Soon) and says iPhone & iPad instead of iPad only
 - Terminal pricing: SSH key import and all color schemes are free, matching the app; Pro no longer lists SSH key import

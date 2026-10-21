@@ -68,4 +68,4 @@ No email addresses are published on the site. All contact goes through the form 
 
 - `/contact/?topic=support` relabels the form "Support" and makes the email subject "Support request from …"
 - `/contact/?topic=support&app=insomnia` (or `app=leaflet`) also tags the subject "(Insomnia)" / "(Leaflet)" and adds version guidance to the message box
-- `app=clocks` only changes the form text; the worker does not tag its subject
+- `app=clocks` and `app=nfc-lab` change the form text and prefix the message body with `[Clocks]` / `[NFC Lab]`; the deployed worker does not tag their subject, and it is intentionally not being redeployed, so `worker/index.js` must stay compatible with what is live

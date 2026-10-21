@@ -104,7 +104,7 @@
           firstName: e.target.firstName.value,
           lastName: e.target.lastName.value,
           email: e.target.email.value,
-          message: e.target.message.value,
+          message: (app && !['Insomnia', 'Leaflet'].includes(app) ? `[${app}] ` : '') + e.target.message.value,
           topic,
           app,
         }),

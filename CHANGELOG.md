@@ -12,9 +12,9 @@
 - Leaflet page: stepped Setup section (#setup) for making Leaflet the default Markdown app, with a pointer to Quick Look troubleshooting
 - Leaflet support page: stepped troubleshooting entries for a plain-text Quick Look preview (#quicklook) and for setting the default Markdown app (#default-app)
 - NFC Lab product page at /nfc-lab/ (Coming Soon, iPhone only, $6.99), support page at /nfc-lab/support/ (`?topic=support&app=nfc-lab`), /nfc-lab/policy/ redirect, a `#nfc-lab` privacy policy section (no accounts, analytics or network access; data stays on the device; exports and shares are user-initiated), a homepage card with its icon, and support-form and worker support for `app=nfc-lab`. Use https://sillysirenstudios.com/nfc-lab/support/ as the Support URL and https://sillysirenstudios.com/nfc-lab/ as the Marketing URL in App Store Connect
-- Worker support-email subject now labels Clocks and NFC Lab as well as Insomnia and Leaflet
 
 ### Changed
+- Contact form: Clocks and NFC Lab support messages are prefixed with the app name in the message body, so they are identifiable with the deployed Worker (which only labels Insomnia and Leaflet in the subject). `worker/index.js` is back to the deployed behaviour; the Worker is intentionally not being redeployed
 - Leaflet page: "your Mac" in the Offline by Design card reworded to "your computer" (5.2.5)
 - Clocks: homepage card and /clocks/ now show it as available on the Mac App Store ($2.99) with a store link, replacing Coming Soon
 - Terminal homepage card: removed the premature "Live" badge (now Coming Soon) and says iPhone & iPad instead of iPad only

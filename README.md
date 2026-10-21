@@ -53,7 +53,7 @@ css/
 - **/insomnia/** — Silly Siren Insomnia product page (features, pricing) — macOS menu bar app
 - **/insomnia/support/** — Insomnia support page (routes to the support form, bug-report guidance) — use as the Support URL in App Store Connect
 - **/leaflet/support/** — Leaflet support page — use as the Support URL in App Store Connect
-- **/leaflet/** — Leaflet product page (features) — macOS Markdown viewer
+- **/leaflet/** — Leaflet product page (features): Markdown, plain-text and data file viewer
 - **/clocks/** — Clocks product page (features) — macOS menu bar world clock
 - **/clocks/support/** — Clocks support page — use as the Support URL in App Store Connect
 - **/nfc-lab/** — NFC Lab product page (Coming Soon) — iPhone NFC tag tool

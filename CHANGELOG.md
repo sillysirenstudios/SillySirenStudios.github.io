@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+### Changed (Leaflet 1.2, store wording)
+- Leaflet page: badge reads "Markdown Viewer · Coming Soon" and the title drops "for Mac" (App Store Guideline 5.2.5); the "Quick Look in Finder" card is now "Spacebar Previews"; "Opens Markdown Directly" is now "Opens Markdown and Plain Text" and lists the 1.2 plain-text and data file types
+- Leaflet support page: new "Which files can Leaflet open?" answer
+- Privacy policy: the Leaflet Data paragraph covers Markdown, plain-text and data files opened in the monospace view
+- Insomnia page and privacy policy: "Mac"/"macOS" in the badge, headline, descriptions and policy text reworded to "computer"/"the system" without changing meaning (same 5.2.5 rule)
+
 ### Added
 - Leaflet page: stepped Setup section (#setup) for making Leaflet the default Markdown app, with a pointer to Quick Look troubleshooting
 - Leaflet support page: stepped troubleshooting entries for a plain-text Quick Look preview (#quicklook) and for setting the default Markdown app (#default-app)

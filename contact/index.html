@@ -83,7 +83,7 @@
     document.querySelector('.breadcrumb').lastChild.textContent = ' Support';
     document.getElementById('message').placeholder = app
       ? (app === 'NFC Lab'
-          ? 'How can we help? Please include your iPhone model, iOS version and NFC Lab version (More → About), and the tag type if it is about a tag.'
+          ? 'How can we help? Please include your phone model, system version and NFC Lab version (More → About), and the tag type if it is about a tag.'
           : `How can we help? Please include your macOS version and ${app} version (${app === 'Clocks' ? 'shown in Preferences' : `${app} menu → About ${app}`}).`)
       : 'How can we help?';
   }

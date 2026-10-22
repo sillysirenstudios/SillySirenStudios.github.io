@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Changed (NFC Lab, strict Apple-term sweep)
+- /nfc-lab/, /nfc-lab/support/, the NFC Lab homepage card, the contact-form hint and the NFC Lab privacy section: "iPhone", "iOS", "Core NFC", "Shortcut(s)", "iPad" and "Made for iPhone" reworded with generic words (phone, system, automation actions, tablet). The requirement line reads "Needs a phone that can read NFC tags."; the homepage platform line is "NFC tag tool".
+
 ### Changed (Leaflet 1.2, store wording)
 - Leaflet page: badge reads "Markdown Viewer · Coming Soon" and the title drops "for Mac" (App Store Guideline 5.2.5); the "Quick Look in Finder" card is now "Spacebar Previews"; "Opens Markdown Directly" is now "Opens Markdown and Plain Text" and lists the 1.2 plain-text and data file types
 - Leaflet support page: new "Which files can Leaflet open?" answer

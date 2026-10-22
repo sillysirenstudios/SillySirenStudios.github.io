@@ -56,7 +56,7 @@ css/
 - **/leaflet/** — Leaflet product page (features): Markdown, plain-text and data file viewer
 - **/clocks/** — Clocks product page (features) — macOS menu bar world clock
 - **/clocks/support/** — Clocks support page — use as the Support URL in App Store Connect
-- **/nfc-lab/** — NFC Lab product page (Coming Soon) — iPhone NFC tag tool
+- **/nfc-lab/** — NFC Lab product page (Coming Soon) — NFC tag tool
 - **/nfc-lab/support/** — NFC Lab support page — use as the Support URL in App Store Connect
 - **/terminal/beta/** — TestFlight beta sign-up and testing guide
 - **/policy/** — Consolidated privacy policy for all apps, with per-app anchors (`#terminal`, `#insomnia`, `#leaflet`, `#clocks`, `#nfc-lab`). Use `https://sillysirenstudios.com/policy/` as the Privacy Policy URL in App Store Connect
